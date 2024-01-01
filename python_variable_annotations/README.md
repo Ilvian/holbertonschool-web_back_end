@@ -173,7 +173,7 @@ def calculate_area(length: float, width: float) -> float:
 
 Remember that Python's type annotations are optional and not enforced at runtime. They serve as a tool for documentation and can be used by external tools for type checking. Static type checkers like `mypy` can be employed to analyze your code based on these annotations.
 
-3. Duck typing
+## Duck typing
 Duck typing is a concept in programming languages, including Python, where the type or class of an object is determined by its behavior (methods and properties) rather than its explicit inheritance or class definition. The term "duck typing" comes from the saying, "If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck."
 
 In duck typing, the focus is on the object's capabilities rather than its type or class hierarchy. If an object supports the required methods or properties, it can be used for a particular purpose, regardless of its actual type.
@@ -215,7 +215,7 @@ In this example, the `make_sound` function does not care about the specific type
 
 Duck typing allows for more flexible and dynamic code, as objects can be used based on their behavior rather than their formal type. However, it also requires careful consideration to ensure that objects passed to functions or methods indeed support the expected behavior.
 
-4. How to validate your code with mypy
+## How to validate your code with mypy
 `mypy` is a static type checker for Python that allows you to catch type-related errors before running your code. Here are the steps to validate your code with `mypy`:
 
 ### 1. Install `mypy`:
