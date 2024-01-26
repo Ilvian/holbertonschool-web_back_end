@@ -1,3 +1,4 @@
+/*eslint-disable*/
 function handleResponseFromAPI(promise) {
     const body = { status: 200, body: 'success' };
   

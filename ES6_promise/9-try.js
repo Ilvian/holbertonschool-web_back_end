@@ -1,3 +1,4 @@
+/*eslint-disable*/
 const guardrail = (mathFunction) => {
     const queue = [];
     try {
