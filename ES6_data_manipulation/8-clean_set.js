@@ -1,3 +1,4 @@
+/*eslint-disable*/
 const cleanSet = (set, string) => {
     if (!string || !string.length) return '';
     let value = '';

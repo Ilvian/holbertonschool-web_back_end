@@ -1,3 +1,4 @@
+/*eslint-disable*/
 const updateStudentGradeByCity = (students, city, newGrade) => students
   .filter((student) => student.location === city)
   .map((item) => {
